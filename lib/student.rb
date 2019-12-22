@@ -101,6 +101,7 @@ class Student
         #binding.pry
         end
      end
+<<<<<<< HEAD
       def self.first_student_in_grade_10
         sql = <<-SQL
       SELECT * FROM students
@@ -122,4 +123,6 @@ class Student
   end
 
   
+=======
+>>>>>>> 38a8f43850eb03220875fe1302514dc53374b91f
 end
